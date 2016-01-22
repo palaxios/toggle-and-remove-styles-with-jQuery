@@ -1,0 +1,121 @@
+body{
+	background: #F0F0F5;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+}
+
+.container{
+	width: 600px;
+	height: 530px;
+	padding:  10px 10px 5px 10px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 2px;
+	background: black;
+	margin-top: 25px;
+}
+
+#wraper{
+	position: absolute;
+	z-index: 1;
+}
+
+header{
+	background-color: #fff;
+	border-radius: 2px;
+	height: 120px;
+	width: 100%;
+	position: relative;
+}
+
+nav ul {
+	padding-top: 87px;
+}
+
+nav ul li{
+	margin-right: 10px;
+	display: inline;
+}
+
+nav ul li a:hover{
+	background-color: none;
+	color: white;
+}
+
+nav ul .nav_link{
+	padding: 74px 20px 7px 20px;
+	color: white;
+	background:black;
+	box-shadow: 3px 3px 3px #888888;
+	border-radius: 3px;
+	text-decoration: none;
+	-webkit-transition-property: padding;
+	-webkit-transition-duration: .5s;
+	-moz-transition-property: padding;
+	-moz-transition-duration: .5s;
+	-ms-transition-property: padding;
+	-ms-transition-duration: .5s;
+	transition-property: padding;
+	transition-duration: .5s;
+}
+
+.btn-54mEFX li #btn-54m,
+.btn-69mEFX li #btn-69m,
+.btn-78mEFX li #btn-78m,
+.btn-92mEFX li #btn-92m,
+.btn-112mEFX li #btn-112m{
+	padding:7px 20px 7px 20px;
+}
+
+#transition{
+	position:absolute;
+	z-index: -1;
+	bottom: 20px;
+}
+
+.bar_start{
+	width: 300px;
+	height: 20px;
+	background:#E60000;
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 2s; 
+	-moz-transition-property: height; 
+	-moz-transition-duration: 2s; 
+	-ms-transition-property: height; 
+	-ms-transition-duration: 2s;
+	transition-property: height;
+	transition-duration: 2s; 
+}
+
+.bar_1_SFX{
+	height: 145px;
+}
+
+.bar_2_SFX{
+	height: 187px;
+}
+
+.bar_3_SFX{
+	height: 230px;
+}
+
+.bar_4_SFX{
+	height: 271px;
+}
+
+.bar_5_SFX{
+	height: 328px;
+}
+
+section{
+	margin-top: 10px;
+	width: 600px;
+	height:370px;
+	background-image:url('http://arturopalacios.ca/five-major-oil-spills-in-history/images/bg12.png');
+	background-repeat:no-repeat;
+	z-index:1;
+}
+
+
+
+
